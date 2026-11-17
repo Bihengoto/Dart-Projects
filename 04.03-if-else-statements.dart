@@ -12,12 +12,12 @@
 
 void main() {
   const netSalary = 90000;
-  const expenses = 90000;
+  const expenses = 9000;
 
   if (netSalary > expenses) {
-    print("You have saved ${netSalary - expenses} this month");
+    print("You have saved \$${netSalary - expenses} this month");
   } else if (expenses > netSalary) {
-    print("You have lost ${expenses - netSalary} this month");
+    print("You have lost \$${expenses - netSalary} this month");
   } else {
     print("Your balance hasn't changed");
   }
